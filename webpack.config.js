@@ -48,7 +48,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HTMLWebpackPlugin({
-      template: 'assets/excel.html',
+      template: 'index.html',
       minify: {
         removeComments: isProd,
         collapseWhitespace: isProd,
